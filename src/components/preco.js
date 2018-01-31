@@ -20,10 +20,6 @@ class top extends Component {
             const films = res.data.results.map(obj => obj);
             this.setState({ films });
         });
-
-        if(this.props.location.query.filter){
-            console.log("filter", this.props.location.query.filter);
-        }
     }
 
     render() {
