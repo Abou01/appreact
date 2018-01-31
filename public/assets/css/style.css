@@ -1,0 +1,22 @@
+
+.thumbMovie{
+    width: 33%;
+    display: block;
+    float: left;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.TrailerZone{
+    width:60%;
+    margin: auto;
+}
+
+.navbar{
+    margin-bottom: 2em;
+}
+
+h3.filterTitle{
+    margin-bottom: 2em;
+}
